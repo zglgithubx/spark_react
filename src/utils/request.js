@@ -1,7 +1,7 @@
 import axios from "axios";
 import { toast } from '@chatui/core';
 let APPID = "658a0987";
-let serverUrl="http://localhost:8080"
+let serverUrl="http://192.168.164.69:8080"
 //解决跨域后，sessionid丢失
 axios.defaults.withCredentials = true;
 
