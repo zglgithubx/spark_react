@@ -23,12 +23,6 @@ let createWebSocket = (url) => {
             const jo = temp[0];
             answer+=jo.content;
             if (2 === response.header.status) {
-                // var pl = response.payload;
-                // const jsonObject = pl.usage.text;
-                // let prompt_tokens = jsonObject.prompt_tokens;
-                // var temp = pl.choices.text;
-                // var jo = temp[0];
-                answer+=jo.content;
                 isEnd=true;
                 // websocket.close();
             }
